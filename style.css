@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins',sans sarif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.highlighted-text{
+    color:#EB4B79;
+    font-weight: 700;
+}
+.half-width{
+    width:40% ;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.half-width h2{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.half-width h1{
+    margin-top: 0px;
+}
+.half-width p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+section{
+    height: 600px;
+    padding-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(deeppink, rgb(196, 72, 130));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work-area{
+    background-image:url("images/latest-work-bg.png") ;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-bottom: -220px;
+}
+.latest-work-area h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.latest-work{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.latest-work img{
+    width: 100%;
+}
+.client-area{
+    height: 400px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.client-area h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.client-area h2{
+    margin-bottom: 50px;
+}
+.client-area h3{
+    font-size: 18px;
+}
+.client-area p{
+    font-size: 16px;
+}
+.contact-me{
+    float: none;
+    color:white;
+    background-image: linear-gradient(deeppink, rgb(196, 72, 130));
+    width: 700px;
+    margin: 50px auto 0px auto;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.contact-me p{
+    color:  white;
+    font-size: 15px;
+}
+.copy-right-text{
+    margin-bottom: 40px;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
